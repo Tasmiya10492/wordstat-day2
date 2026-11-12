@@ -1,0 +1,16 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.4, pytest-9.2.0, pluggy-1.7.0 -- /home/tasmiyaustad/wordsat/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/tasmiyaustad/wordsat
+collecting ... collected 8 items
+
+test_wordstat.py::test_repeated_words PASSED                             [ 12%]
+test_wordstat.py::test_case_insensitive_counting PASSED                  [ 25%]
+test_wordstat.py::test_punctuation PASSED                                [ 37%]
+test_wordstat.py::test_empty_file PASSED                                 [ 50%]
+test_wordstat.py::test_unicode_text PASSED                               [ 62%]
+test_wordstat.py::test_very_long_line PASSED                             [ 75%]
+test_wordstat.py::test_top_n_words PASSED                                [ 87%]
+test_wordstat.py::test_missing_file PASSED                               [100%]
+
+============================== 8 passed in 0.05s ===============================
